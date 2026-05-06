@@ -38,6 +38,9 @@ archive/
 # Custom GPT configurations (private — instructions not publicly exposed)
 custom-gpt/*-gpt.md
 
+# VSD-internal customized skills (client-confidential — never publish)
+_customized/
+
 # MkDocs build output
 site/
 .playwright-mcp/
