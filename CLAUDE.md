@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is a **comprehensive skills library** for Claude AI and Claude Code - reusable, production-ready skill packages that bundle domain expertise, best practices, analysis tools, and strategic frameworks. The repository provides modular skills that teams can download and use directly in their workflows.
 
-**Current Scope:** 233 production-ready skills across 9 domains with 305 Python automation tools, 424 reference guides, 25 agents, and 22 slash commands.
+**Current Scope:** 234 production-ready skills across 9 domains with 309 Python automation tools, 427 reference guides, 25 agents, and 22 slash commands.
 
 **Key Distinction**: This is NOT a traditional application. It's a library of skill packages meant to be extracted and deployed by users into their own Claude workflows.
 
@@ -24,7 +24,7 @@ This repository uses **modular documentation**. For domain-specific guidance, se
 | **C-Level Advisory** | [c-level-advisor/CLAUDE.md](c-level-advisor/CLAUDE.md) | CEO/CTO strategic decision-making |
 | **Project Management** | [project-management/CLAUDE.md](project-management/CLAUDE.md) | Atlassian MCP, Jira/Confluence integration |
 | **RA/QM Compliance** | [ra-qm-team/CLAUDE.md](ra-qm-team/CLAUDE.md) | ISO 13485, MDR, FDA, GDPR, ISO 27001 compliance |
-| **Business & Growth** | [business-growth/CLAUDE.md](business-growth/CLAUDE.md) | Customer success, sales engineering, revenue operations |
+| **Business & Growth** | [business-growth/CLAUDE.md](business-growth/CLAUDE.md) | Customer success, sales engineering, revenue operations, channel partner programs |
 | **Finance** | [finance/CLAUDE.md](finance/CLAUDE.md) | Financial analysis, DCF valuation, budgeting, forecasting, SaaS metrics |
 | **Standards Library** | [standards/CLAUDE.md](standards/CLAUDE.md) | Communication, quality, git, security standards |
 | **Templates** | [templates/CLAUDE.md](templates/CLAUDE.md) | Template system usage |
@@ -45,7 +45,7 @@ claude-code-skills/
 ├── c-level-advisor/           # 34 C-level advisory skills (10 roles + orchestration)
 ├── project-management/        # 9 PM skills + Atlassian MCP
 ├── ra-qm-team/                # 14 RA/QM compliance skills
-├── business-growth/           # 5 business & growth skills + Python tools
+├── business-growth/           # 6 business & growth skills + Python tools
 ├── finance/                   # 4 finance skills + Python tools
 ├── eval-workspace/            # Skill evaluation results (Tessl)
 ├── standards/                 # 5 standards library files
@@ -153,9 +153,9 @@ See [standards/git/git-workflow-standards.md](standards/git/git-workflow-standar
 
 ## Roadmap
 
-**Phase 1-3 Complete:** 233 production-ready skills deployed across 9 domains
-- Engineering Core (37), Engineering POWERFUL (43), Product (15), Marketing (44), PM (9), C-Level (34), RA/QM (14), Business & Growth (5), Finance (4)
-- 305 Python automation tools, 424 reference guides, 25 agents, 22 commands
+**Phase 1-3 Complete:** 234 production-ready skills deployed across 9 domains
+- Engineering Core (37), Engineering POWERFUL (43), Product (15), Marketing (44), PM (9), C-Level (34), RA/QM (14), Business & Growth (6), Finance (4)
+- 309 Python automation tools, 427 reference guides, 25 agents, 22 commands
 - Complete enterprise coverage from engineering through regulatory compliance, sales, customer success, and finance
 - MkDocs Material docs site with 269+ indexed pages for SEO
 

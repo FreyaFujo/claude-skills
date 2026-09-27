@@ -1,0 +1,10 @@
+{
+  "tiers": [
+    {"name": "Gold", "margin": "30-35%", "min_revenue_12m": 500000, "min_certified_engineers": 2, "requires_training": true,
+     "benefits": ["Co-selling", "MDF", "Dedicated support"]},
+    {"name": "Silver", "margin": "20-25%", "min_revenue_12m": 100000, "min_certified_engineers": 1, "requires_training": true,
+     "benefits": ["Shared leads", "Portal access"]},
+    {"name": "Registered", "margin": "10-15%", "min_revenue_12m": 0, "min_certified_engineers": 0, "requires_training": false,
+     "benefits": ["Product updates", "Training access"]}
+  ]
+}

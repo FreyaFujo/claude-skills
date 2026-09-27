@@ -1,6 +1,6 @@
 # Business & Growth Skills - Claude Code Guidance
 
-This guide covers the 3 production-ready business and growth skills and their Python automation tools.
+This guide covers the 5 production-ready business and growth skills and their Python automation tools.
 
 ## Business & Growth Skills Overview
 
@@ -8,8 +8,10 @@ This guide covers the 3 production-ready business and growth skills and their Py
 1. **customer-success-manager/** - Customer health scoring, churn risk analysis, expansion opportunities (3 Python tools)
 2. **sales-engineer/** - Technical discovery, RFP analysis, competitive positioning, POC planning (3 Python tools)
 3. **revenue-operations/** - Pipeline analysis, forecast accuracy, GTM efficiency metrics (3 Python tools)
+4. **contract-and-proposal-writer/** - Contract and proposal drafting
+5. **channel-partner-program/** - Partner type selection, IPP scoring, channel sizing, tiering, 90-day activation, channel KPIs (4 Python tools)
 
-**Total Tools:** 9 Python automation tools, 9 knowledge bases, 19+ templates
+**Total Tools:** 13 Python automation tools, 12 knowledge bases, 28+ templates
 
 ## Python Automation Tools
 
@@ -164,6 +166,69 @@ python revenue-operations/scripts/gtm_efficiency_calculator.py gtm_data.json
 python revenue-operations/scripts/gtm_efficiency_calculator.py gtm_data.json --format json
 ```
 
+### Channel Partner Program Tools
+
+#### 10. Partner Type Advisor (`channel-partner-program/scripts/partner_type_advisor.py`)
+
+**Purpose:** Recommend partner types, service modules and Advise/Build/Lead involvement from a diagnosed growth constraint
+
+**Features:**
+- Six constraints (pipeline volume, geographic reach, vertical penetration, deployment complexity, product stickiness, deal conversion)
+- Five partner types (referral, reseller, system integrator, technology, channel) with module dependency map
+- Involvement level shifted by in-house capability (none / partial / full)
+
+**Usage:**
+```bash
+python channel-partner-program/scripts/partner_type_advisor.py --constraint pipeline-volume --capability partial
+python channel-partner-program/scripts/partner_type_advisor.py --constraint deployment-complexity --format json
+```
+
+#### 11. IPP Scorer (`channel-partner-program/scripts/ipp_scorer.py`)
+
+**Purpose:** Rank prospective partners against a weighted Ideal Partner Profile
+
+**Features:**
+- 12 criteria across firmographic, capability, alignment and trust-mapping pillars, weights sum to 100
+- Recruit / conditional / decline thresholds (default 75 / 55), strengths and gaps per prospect
+- CSV, JSON and text output; custom weights file
+
+**Usage:**
+```bash
+python channel-partner-program/scripts/ipp_scorer.py prospects.csv
+python channel-partner-program/scripts/ipp_scorer.py prospects.csv --weights ipp_weights.json --format csv
+```
+
+#### 12. Channel Planner (`channel-partner-program/scripts/channel_planner.py`)
+
+**Purpose:** Pipeline math, tier assignment and 90-day activation plans
+
+**Features:**
+- `pipeline`: revenue target to deals, qualified opportunities, coverage and partner contribution
+- `tiers`: Registered / Silver / Gold from revenue, certified engineers, training and agreement, with next-tier gap
+- `activation`: dated Launch / Pipeline / Review plan in text, JSON or Markdown
+
+**Usage:**
+```bash
+python channel-partner-program/scripts/channel_planner.py pipeline --target 5000000 --avg-deal 30000 --win-rate 0.25 --partners 5 --opps-per-partner 3
+python channel-partner-program/scripts/channel_planner.py tiers partner_performance.csv --config tier_config.json
+python channel-partner-program/scripts/channel_planner.py activation --partner "Acme" --start 2026-10-01 --format md
+```
+
+#### 13. Channel KPI Tracker (`channel-partner-program/scripts/kpi_tracker.py`)
+
+**Purpose:** Score channel program health against benchmarks and flag at-risk partners
+
+**Features:**
+- Seven KPIs: sourced and influenced revenue share, pipeline coverage, enablement completion, portal engagement, time to first deal, retention
+- 0-100 health score with GREEN / AMBER / RED grade; misses earn discounted credit
+- At-risk partner list with reasons and next action
+
+**Usage:**
+```bash
+python channel-partner-program/scripts/kpi_tracker.py partner_kpis.csv --total-revenue 4200000
+python channel-partner-program/scripts/kpi_tracker.py partner_kpis.csv --total-revenue 4200000 --as-of 2026-09-30 --format json
+```
+
 ## Quality Standards
 
 **All business & growth Python tools must:**
@@ -183,6 +248,6 @@ python revenue-operations/scripts/gtm_efficiency_calculator.py gtm_data.json --f
 
 ---
 
-**Last Updated:** February 2026
-**Skills Deployed:** 3/3 business & growth skills production-ready
-**Total Tools:** 9 Python automation tools
+**Last Updated:** September 2026
+**Skills Deployed:** 5/5 business & growth skills production-ready
+**Total Tools:** 13 Python automation tools

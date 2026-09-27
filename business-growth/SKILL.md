@@ -1,6 +1,6 @@
 ---
 name: "business-growth-skills"
-description: "4 business growth agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. Customer success (health scoring, churn), sales engineer (RFP), revenue operations (pipeline, GTM), contract & proposal writer. Python tools (stdlib-only)."
+description: "5 business growth agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. Customer success (health scoring, churn), sales engineer (RFP), revenue operations (pipeline, GTM), contract & proposal writer, channel partner program (IPP scoring, tiers, activation, KPIs). Python tools (stdlib-only)."
 version: 1.1.0
 author: Alireza Rezvani
 license: MIT
@@ -18,7 +18,7 @@ agents:
 
 # Business & Growth Skills
 
-4 production-ready skills for customer success, sales, and revenue operations.
+5 production-ready skills for customer success, sales, revenue operations, and channel partner programs.
 
 ## Quick Start
 
@@ -38,6 +38,7 @@ npx agent-skills-cli add alirezarezvani/claude-skills/business-growth
 |-------|--------|-------|
 | Customer Success Manager | `customer-success-manager/` | Health scoring, churn prediction, expansion |
 | Sales Engineer | `sales-engineer/` | RFP analysis, competitive matrices, PoC planning |
+| Channel Partner Program | `channel-partner-program/` | Partner types, IPP scoring, channel sizing, tiers, 90-day activation, channel KPIs |
 | Revenue Operations | `revenue-operations/` | Pipeline analysis, forecast accuracy, GTM metrics |
 | Contract & Proposal Writer | `contract-and-proposal-writer/` | Proposal generation, contract templates |
 

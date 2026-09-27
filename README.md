@@ -158,7 +158,7 @@ Run `./scripts/convert.sh --tool all` to generate tool-specific outputs locally.
 | **📋 Project Management** | 9 | Senior PM, scrum master, Jira, Confluence, Atlassian admin, templates | [project-management/](project-management/) |
 | **🏥 Regulatory & QM** | 14 | ISO 13485, MDR 2017/745, FDA, ISO 27001, GDPR, CAPA, risk management | [ra-qm-team/](ra-qm-team/) |
 | **💼 C-Level Advisory** | 34 | Full C-suite (10 roles) + orchestration + board meetings + culture & collaboration | [c-level-advisor/](c-level-advisor/) |
-| **📈 Business & Growth** | 5 | Customer success, sales engineer, revenue ops, contracts & proposals | [business-growth/](business-growth/) |
+| **📈 Business & Growth** | 6 | Customer success, sales engineer, revenue ops, contracts & proposals, channel partner program | [business-growth/](business-growth/) |
 | **💰 Finance** | 4 | Financial analyst (DCF, budgeting, forecasting), SaaS metrics coach (ARR, MRR, churn, LTV, CAC) | [finance/](finance/) |
 
 ---

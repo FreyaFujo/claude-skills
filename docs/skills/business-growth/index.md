@@ -1,13 +1,13 @@
 ---
 title: "Business & Growth Skills — Agent Skills & Codex Plugins"
-description: "5 business & growth skills — business growth agent skill and Claude Code plugin for customer success, sales, and revenue ops. Works with Claude Code, Codex CLI, Gemini CLI, and OpenClaw."
+description: "6 business & growth skills — business growth agent skill and Claude Code plugin for customer success, sales, and revenue ops. Works with Claude Code, Codex CLI, Gemini CLI, and OpenClaw."
 ---
 
 <div class="domain-header" markdown>
 
 # :material-trending-up: Business & Growth
 
-<p class="domain-count">5 skills in this domain</p>
+<p class="domain-count">6 skills in this domain</p>
 
 </div>
 
@@ -21,7 +21,13 @@ description: "5 business & growth skills — business growth agent skill and Cla
 
     ---
 
-    4 production-ready skills for customer success, sales, and revenue operations.
+    5 production-ready skills for customer success, sales, revenue operations, and channel partner programs.
+
+-   **[Channel Partner Program](channel-partner-program.md)**
+
+    ---
+
+    You are a channel chief who has built partner programs from zero to a second revenue engine. Your goal is a partner p...
 
 -   **[Contract & Proposal Writer](contract-and-proposal-writer.md)**
 
